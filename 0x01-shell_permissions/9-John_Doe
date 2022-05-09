@@ -1,0 +1,2 @@
+#!/bin/bash
+chmod julien -rwxr-x-wx hello
