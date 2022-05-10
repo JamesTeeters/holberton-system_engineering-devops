@@ -1,2 +1,2 @@
 #!/bin/bas
-cat -n +3 iacta
+head -3 iacta | tail +3
