@@ -1,2 +1,16 @@
 #!/usr/bin/bash/env bash
+x=0
+while [ $x -le 9 ]
+do
+	((x++))
+	if [ $x -eq 4 ]
+	then
+		echo "bad luck"
+		elif [ $x -eq 8 ]
+		then 
+			echo "good luck"
+		else
+			echo "Best School"
+	fi
+done
 
