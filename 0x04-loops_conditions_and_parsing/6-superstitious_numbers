@@ -1,7 +1,8 @@
 #!/usr/bin/bash/env bash
-x=10
+x=0
 while [ $x -lt 20 ]
 do
+	((x++))
 	case $x in
 		4)
 			echo "bad luck from China"
@@ -13,5 +14,6 @@ do
 			echo "bad luck from Italy"
 			;;
 		*)
+			echo "$x"
 	esac
 done
