@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-#
+# use p kill to stop highlander
+pkill -1 -f 7-*
 
