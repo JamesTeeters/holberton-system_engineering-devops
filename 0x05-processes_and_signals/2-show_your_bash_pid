@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # display Pid only containing "bash" using grep com
 # shellcheck disable=SC2009
-ps -aux | grep bash
+ps  | grep bash

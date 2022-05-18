@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # use kill command to stop indefinite loop
-var="$(pgrep bash)"
-kill -15 $var
+var="$(pgrep -f 4-to_infinity_and_beyond)"
+kill -15 "$var"
