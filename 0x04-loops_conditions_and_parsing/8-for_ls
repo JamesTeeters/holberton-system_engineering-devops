@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#
+# create a variable for the ls command; cut all text after the "-" delimeter
 x="$(ls)"
 for x in *; do
 	echo "$x" | cut -d - -f 2
