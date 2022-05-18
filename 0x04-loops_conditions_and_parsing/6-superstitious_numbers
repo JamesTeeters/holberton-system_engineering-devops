@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # while loop to print numbers 1-20, case to print bad luck at line 4, 9, 17.
 x=0
-while [ $x -lt 20 ]; do
+while [ $x -lt 20 ] 
+do
 	((x++))
 	case $x in
 		4)
@@ -15,5 +16,6 @@ while [ $x -lt 20 ]; do
 			;;
 		*)
 			echo "$x"
+			;;
 	esac
 done
