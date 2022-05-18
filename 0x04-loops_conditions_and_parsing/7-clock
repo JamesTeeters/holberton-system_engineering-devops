@@ -1,2 +1,22 @@
 #!/usr/bin/bash/env bash
-
+# use while loop to print 1-59 in each hour upto 12 hours.
+hour=0
+minute=1
+while [ $hour -le 12 ] && [ $minute -le 59 ]
+do
+	case $minute in
+		1)
+			echo "Hour: $hour"
+			echo "$minute"
+			((minute++))
+			;;
+		59)
+			echo "$minute"
+			((minute=0))
+			((hour++))
+			;;
+		*)
+			echo "$minute"
+			((minute++))
+	esac
+done
