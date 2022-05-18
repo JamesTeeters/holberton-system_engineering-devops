@@ -1,4 +1,4 @@
-#!/usr/bin/bash/env bash
+#!/usr/bin/env bash
 # use while loop to print 1-59 in each hour upto 12 hours.
 hour=0
 minute=1

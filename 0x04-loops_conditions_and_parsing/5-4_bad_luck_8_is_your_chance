@@ -1,4 +1,4 @@
-#!/usr/bin/bash/env bash
+#!/usr/bin/env bash
 # while loop to print Best School, if then print bad luck line 4, elif to print good luck line 8
 x=0
 while [ $x -le 9 ]

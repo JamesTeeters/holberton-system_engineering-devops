@@ -1,4 +1,4 @@
-#!/usr/bin/bash/env bash
+#!/usr/bin/env bash
 # while loop to print Best School 10 times, if statment to print Hi in line 9
 x=1
 while [ $x -le 9 ]
