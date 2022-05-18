@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# 
+# while x is less than 100 print x, if a multiple of 3 print Fizz, if a multiple of 5 print Buzz, if both print FizzBuzz 
 x=0
-while [ $x -le 100 ]; do
+while [ $x -lt 100 ]; do
 	((x++))
 	if ! (( x % 3 )) && ! (( x % 5 )); then
 		echo "FizzBuzz"
@@ -11,7 +11,6 @@ while [ $x -le 100 ]; do
 		echo "Buzz"
 	else
 		echo "$x"
-	
 	fi
 done
 
