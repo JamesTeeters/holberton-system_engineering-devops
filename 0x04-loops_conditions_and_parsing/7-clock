@@ -11,8 +11,8 @@ while [[ $hour -le 12 ]] && [[ $minute -le 59 ]]; do
 			;;
 		59)
 			echo "$minute"
-			((minute=0))
 			((hour++))
+			((minute=1))
 			;;
 		*)
 			echo "$minute"
