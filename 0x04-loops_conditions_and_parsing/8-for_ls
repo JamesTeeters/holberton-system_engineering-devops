@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-
+#
+x="$(ls)"
+for x in *; do
+	echo "$x" | cut -d - -f 2
+done
