@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# print PID 
-echo "$!"
+# print PID
+foo=$$
+echo "$foo"
