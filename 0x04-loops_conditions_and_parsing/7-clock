@@ -2,7 +2,8 @@
 # use while loop to print 1-59 in each hour upto 12 hours.
 hour=0
 minute=1
-while [[ $hour -le 12 ]] && [[ $minute -le 59 ]]; do
+while [[ $hour -le 12 ]] && [[ $minute -le 59 ]]
+do
 	case $minute in
 		1)
 			echo "Hour: $hour"
@@ -17,5 +18,6 @@ while [[ $hour -le 12 ]] && [[ $minute -le 59 ]]; do
 		*)
 			echo "$minute"
 			((minute++))
+			;;
 	esac
 done
