@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # print text indefinetly, use sleep 2 in between each iteration
-trap 'echo "I sm invincible!!!"' sigterm
+trap 'echo "I am invincible!!!"' sigterm
 while  'true'; do
 	echo "To infinity and beyond"
 	sleep 2
